@@ -32,7 +32,7 @@ MS.Test(formula, c, data)
 
 ## Valores
 
-Una lista de clase "```htest```" que contiene los siguientes componentes:
+Una lista de clase ```htest``` que contiene los siguientes componentes:
 
 ```statistic```&nbsp; el valor de la estadística de Mack-Skillings
  
@@ -50,10 +50,21 @@ Una lista de clase "```htest```" que contiene los siguientes componentes:
 ## Ejemplos
 
 ```
+# matrix input
+
 Datos = matrix(c(7.58,7.87,7.71,11.63,11.87,11.4,15,15.92,15.58,8,8.27,8,12.2,11.7,
                  11.8,16.6,16.4,15.9,7.6,7.3,7.82,11.04,11.5,11.49,15.87,15.91,16.28,8.03,7.35,
                  7.66,11.5,10.1,11.7,15.1,14.8,15.7),9,4)
 MS.Test(Datos,c=3)
+
+#	 Skillings-Mack Test
+
+# data:  Datos
+# MS = 12.927, p-value = 0.004796
+## => 
+ 
+ 
+# formula input
 
 Datos = data.frame(x = c(7.58,7.87,7.71,11.63,11.87,11.4,15,15.92,15.58,8,8.27,8,12.2,11.7,
                      11.8,16.6,16.4,15.9,7.6,7.3,7.82,11.04,11.5,11.49,15.87,15.91,16.28,8.03,7.35,
@@ -61,4 +72,10 @@ Datos = data.frame(x = c(7.58,7.87,7.71,11.63,11.87,11.4,15,15.92,15.58,8,8.27,8
                    tratamientos=as.factor(c(rep("lab1",9),rep("lab2",9),rep("lab3",9),rep("lab4",9))),
                    bloques =as.factor(c(rep(c(rep("0",3),rep("4",3),rep("8",3)),4))))
 MS.Test(x~tratamientos|bloques,3,data = Datos)
+
+#	 Skillings-Mack Test
+
+# data:  Datos
+# MS = 12.927, p-value = 0.004796
+## => 
 ```
