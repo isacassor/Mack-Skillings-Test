@@ -37,10 +37,10 @@ Una lista de clase "```htest```" que contiene los siguientes componentes:
 ```statistic```&nbsp; el valor de la estadística de Mack-Skillings
  
  
-```p.value```&nbsp;&nbsp; valor p del test
+```p.value```&nbsp;&nbsp;&nbsp;&nbsp; valor p del test
 
 
-```method```&nbsp;&nbsp;&nbsp;&nbsp; la cadena de caracteres "Skillings-Mack Test"
+```method```&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; la cadena de caracteres "Skillings-Mack Test"
 
 
 ```data.name```&nbsp; cadena de carcateres dando el nombre del conjunto de datos
