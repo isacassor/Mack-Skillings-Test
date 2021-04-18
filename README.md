@@ -26,7 +26,7 @@ MS.Test(formula, c, data)
 ```formula```&nbsp; fórmula de la forma ```x ~ t | b```, donde ```x```, ```t``` y ```b``` corresponden a los datos y sus correspondientes tratamientos y bloques, respectivamente.
 
 
-```data```&nbsp;&nbsp;&nbsp;&nbsp; data frame que contiene las variable en la fórmula ```formula```. Argumento obligatorio si se especifica ```formula```.
+```data```&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; data frame que contiene las variable en la fórmula ```formula```. Argumento obligatorio si se especifica ```formula```.
 
 ## Detalles
 
@@ -34,16 +34,16 @@ MS.Test(formula, c, data)
 
 Una lista de clase "```htest```" que contiene los siguientes componentes:
 
-```statistic`` el valor de la estadística de Mack-Skillings
+```statistic```&nbsp; el valor de la estadística de Mack-Skillings
  
  
-```p.value``` valor p del test
+```p.value```&nbsp;&nbsp; valor p del test
 
 
-```method``` la cadena de caracteres "Skillings-Mack Test"
+```method```&nbsp;&nbsp;&nbsp;&nbsp; la cadena de caracteres "Skillings-Mack Test"
 
 
-```data.name``` cadena de carcateres dando el nombre del conjunto de datos
+```data.name```&nbsp; cadena de carcateres dando el nombre del conjunto de datos
 
 ## Referencias
 
