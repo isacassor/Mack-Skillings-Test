@@ -17,13 +17,15 @@ MS.Test(formula, c, data)
 
 ## Argumentos
 
+<pre>
 ```y```     Matriz de datos con bloques en las filas y tratamientos en las columnas
 
 
 ```c```     Número de réplicas
 
 
-```formula``` Fórmula de la forma ```x ~ t | b```, donde ```x```, ```t``` y ```b``` dan los datos y sus correspondientes tratamientos y bloques, respectivamente
+```formula``` Fórmula de la forma ```x ~ t | b```, donde ```x```, ```t``` y ```b``` corresponden a los datos y sus correspondientes tratamientos y bloques, respectivamente
+</pre>
 
 ## Detalles
 
