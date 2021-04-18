@@ -26,7 +26,7 @@ MS.Test(formula, c, data)
 ```formula```&nbsp; fórmula de la forma ```x ~ t | b```, donde ```x```, ```t``` y ```b``` corresponden a los datos y sus correspondientes tratamientos y bloques, respectivamente.
 
 
-```data```&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; data frame que contiene las variable en la fórmula ```formula```. Argumento obligatorio si se especifica ```formula```.
+```data```&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; data frame que contiene las variable en la fórmula ```formula```. Argumento obligatorio si se especifica ```formula```.
 
 ## Detalles
 
