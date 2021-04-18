@@ -1,7 +1,7 @@
 # Mack-Skillings Test
 
 ## Descripción
-Realiza un test de Skillings-Mack con datos en bloques replicados.
+Realiza un test de Mack-Skillings con datos en bloques replicados.
 
 ## Uso
 
