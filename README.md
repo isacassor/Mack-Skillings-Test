@@ -74,7 +74,8 @@ MS.Test(Datos,c=3)
 
 # data:  Datos
 # MS = 12.927, p-value = 0.004796
-## => Con una significancia del 0.05% se concluye que hay evidencia suficiente para rechazar la hipótesis nula y por lo tanto hay una diferencia significativa entre los tratamientos.
+## => Con una significancia del 0.05% se concluye que hay evidencia suficiente para rechazar la hipótesis nula y por lo tanto hay
+## una diferencia significativa entre los tratamientos.
  
  
 # formula input
@@ -89,5 +90,6 @@ MS.Test(x~tratamientos|bloques,3,data = Datos)
 
 # data:  Datos
 # MS = 12.927, p-value = 0.004796
-## => Con una significancia del 0.05% se concluye que hay evidencia suficiente para rechazar la hipótesis nula y por lo tanto hay una diferencia significativa entre los tratamientos.
+## => Con una significancia del 0.05% se concluye que hay evidencia suficiente para rechazar la hipótesis nula y por lo tanto hay
+## una diferencia significativa entre los tratamientos.
 ```
