@@ -38,7 +38,7 @@ Si $y$ es una matriz, los tratamientos y bloques se obtienen de los índices de 
 
 Para calcular la estadística de Mack-Skillings para un número de réplicas iguales, primero se clasifican las observaciones de menor a mayor, por separado dentro de cada uno de los $n$ bloques. Siendo $S_j$ la suma de los rangos del tratamiento $j$, $k$ el número de tratamientos, $n$ el número de bloques, $c$ el número de réplicas dentro de los bloques, la estadística de Mack-Skillings está dada por          
 
-$$ MS=\frac{12}{k(N+n)}\left[\sum_{j=1}^k{S_j}^2\right]  -3(N+n)$$
+<img src="https://latex.codecogs.com/svg.image?MS=\frac{12}{k(N&plus;n)}\left[\sum_{j=1}^k{S_j}^2\right]-3(N&plus;n)" title="MS=\frac{12}{k(N+n)}\left[\sum_{j=1}^k{S_j}^2\right]-3(N+n)" />
 
 ## Valores
 
