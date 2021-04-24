@@ -30,13 +30,13 @@ MS.Test(formula, c, data)
 
 ## Detalles
 
-MS.Test es una extensión de la prueba de Friedman, se puede utilizar para analizar diseños de bloques completos, con la diferencia que permite la inclusión de observaciones replicadas por bloque (es decir, hay múltiples observaciones en $y$ para algunas combinaciones de tratamiento y bloque) donde se puede violar el supuesto de normalidad.
+MS.Test es una extensión de la prueba de Friedman, se puede utilizar para analizar diseños de bloques completos, con la diferencia que permite la inclusión de observaciones replicadas por bloque (es decir, hay múltiples observaciones en ```y``` para algunas combinaciones de tratamiento y bloque) donde se puede violar el supuesto de normalidad.
 
-La hipótesis nula es que, aparte de un efecto de bloques, el parámetro de ubicación de $y$ es el mismo en cada uno de los tratamientos.
+La hipótesis nula es que, aparte de un efecto de bloques, el parámetro de ubicación de ```y``` es el mismo en cada uno de los tratamientos.
 
-Si $y$ es una matriz, los tratamientos y bloques se obtienen de los índices de columna y fila, respectivamente. Los NA no están permitidos en tratamientos o bloques.
+Si ```y``` es una matriz, los tratamientos y bloques se obtienen de los índices de columna y fila, respectivamente. Los NA no están permitidos en tratamientos o bloques.
 
-Para calcular la estadística de Mack-Skillings para un número de réplicas iguales, primero se clasifican las observaciones de menor a mayor, por separado dentro de cada uno de los $n$ bloques. Siendo $S_j$ la suma de los rangos del tratamiento $j$, $k$ el número de tratamientos, $n$ el número de bloques, $c$ el número de réplicas dentro de los bloques, la estadística de Mack-Skillings está dada por          
+Para calcular la estadística de Mack-Skillings para un número de réplicas iguales, primero se clasifican las observaciones de menor a mayor, por separado dentro de cada uno de los $n$ bloques. Siendo <img src="https://latex.codecogs.com/svg.image?S_{j}" title="S_{j}" /> la suma de los rangos del tratamiento $j$, $k$ el número de tratamientos, $n$ el número de bloques, ```c``` el número de réplicas dentro de los bloques, la estadística de Mack-Skillings está dada por          
 
 <img src="https://latex.codecogs.com/svg.image?MS=\frac{12}{k(N&plus;n)}\left[\sum_{j=1}^k{S_j}^2\right]-3(N&plus;n)" title="MS=\frac{12}{k(N+n)}\left[\sum_{j=1}^k{S_j}^2\right]-3(N+n)" />
 
