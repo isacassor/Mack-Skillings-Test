@@ -1,5 +1,6 @@
 Package: MSTest
 Type: Package
+Description: Realiza un test de Mack-Skillings con datos en bloques replicados (balanceados).
 Title: Mack-Skillings Test
 Version: 0.1.0
 Author: Isabella Castillo, David Mackenzie, Camila Penha, Juan Felipe Quimbay
