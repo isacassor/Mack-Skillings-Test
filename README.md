@@ -53,7 +53,7 @@ Una lista de clase ```htest``` que contiene los siguientes componentes:
 ```method```&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; la cadena de caracteres "Skillings-Mack Test".
 
 
-```data.name```&nbsp; cadena de carcateres dando el nombre del conjunto de datos.
+```data.name```&nbsp; cadena de caracteres dando el nombre del conjunto de datos.
 
 ## Referencias
 
