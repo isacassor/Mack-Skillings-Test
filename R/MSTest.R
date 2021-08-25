@@ -1,10 +1,10 @@
 #' @title Mack-Skillings Test.
 #' @description Realiza un test de Mack-Skillings con datos en bloques replicados (balanceados).
 #' @param y matriz de datos con bloques en las filas y tratamientos en las columnas.
-#' @param c número de réplicas.
-#' @param formula fórmula de la forma x ~ t | b, donde x, t y b corresponden a los datos y sus correspondientes tratamientos y bloques, respectivamente.
-#' @param data data frame que contiene las variables en la fórmula formula. Argumento obligatorio si se especifica formula.
-#' @return el valor de la estadística de Mack-Skillings y su p-valor
+#' @param c n?mero de r?plicas.
+#' @param formula f?rmula de la forma x ~ t | b, donde x, t y b corresponden a los datos y sus correspondientes tratamientos y bloques, respectivamente.
+#' @param data data frame que contiene las variables en la f?rmula formula. Argumento obligatorio si se especifica formula.
+#' @return el valor de la estad?stica de Mack-Skillings y su p-valor
 #' @author Isabella Castillo, David Mackenzie, Camila Penha, Juan Felipe Quimbay
 #' @examples
 #' Datos = matrix(c(7.58,7.87,7.71,11.63,11.87,11.4,15,15.92,15.58,8,8.27,8,12.2,11.7,
@@ -30,7 +30,7 @@ MS.Test = function(y,c,data=NULL){
       R[m:(m+c-1),] = matrix(rank(vectorC),c,k)
       m = m+c
     }
-    Sj = apply(R,2,sum)/n
+    Sj = apply(R,2,sum)/c
     return(Sj)
   }
   if(is.matrix(y)==TRUE){
