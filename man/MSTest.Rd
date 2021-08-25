@@ -39,7 +39,7 @@ A list with class "\code{htest}" containing the following components
 
 \code{p.value} p-value of the test.
 
-\code{method} the character string "\code{Skillings-Mack Test}"
+\code{method} the character string "\code{Skillings-Mack Test}" for c>1, the character string "\code{Friedman Test}" for c=1.
 
 \code{data.name} a character string givind the names of the data.
 }
