@@ -35,11 +35,11 @@ To calculate the Mack-Skillings statistic for a number of equal replicates, the 
 \value{
 A list with class "\code{htest}" containing the following components
 
-\code{statistic} the value of Skillings-Mack statistic
+\code{statistic} the value of the Skillings-Mack or Friedman statistic, depending on the case.
 
 \code{p.value} p-value of the test.
 
-\code{method} the character string "\code{Skillings-Mack Test}" for c>1, the character string "\code{Friedman Test}" for c=1.
+\code{method} the character string "\code{Skillings-Mack Test}" or "\code{Friedman Test}", depending on the case.
 
 \code{data.name} a character string givind the names of the data.
 }
