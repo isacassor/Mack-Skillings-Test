@@ -44,7 +44,7 @@ Para calcular la estadística de Mack-Skillings para un número de réplicas igu
 
 Una lista de clase ```htest``` que contiene los siguientes componentes:
 
-```statistic```&nbsp; el valor de la estadística de Mack-Skillings.
+```statistic```&nbsp; el valor de la estadística de Mack-Skillings o Freidman, según el caso.
  
  
 ```p.value```&nbsp;&nbsp;&nbsp;&nbsp; valor p del test.
