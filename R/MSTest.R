@@ -71,7 +71,14 @@ MS.Test = function(y,c,data=NULL){
   p.value = 1-pchisq(MS,k-1)
   attr(MS,"names") = "MS"
 
-  TEST        <- list(method = "Skillings-Mack Test", data.name = dataname,
+  if(c==1){
+    name = "Friedman Test"
+  }
+  else{
+    name = "Skillings-Mack Test"
+  }
+
+  TEST        <- list(method = name, data.name = dataname,
                       statistic = MS, p.value = p.value);
   class(TEST) <- "htest";
   TEST
