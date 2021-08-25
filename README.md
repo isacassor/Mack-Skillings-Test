@@ -50,7 +50,7 @@ Una lista de clase ```htest``` que contiene los siguientes componentes:
 ```p.value```&nbsp;&nbsp;&nbsp;&nbsp; valor p del test.
 
 
-```method```&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; la cadena de caracteres "Skillings-Mack Test" para c>1, la cadena de caracteres "Friedman Test" para c=1.
+```method```&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; la cadena de caracteres "Skillings-Mack Test" o "Friedman Test", según el caso.
 
 
 ```data.name```&nbsp; cadena de caracteres dando el nombre del conjunto de datos.
